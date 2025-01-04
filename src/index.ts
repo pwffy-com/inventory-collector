@@ -113,7 +113,7 @@ const inventory: TInventoryUpload = {
 
 const writeFile = () => {
 
-    return fs.writeFileSync('./_inventory/inventory.json', JSON.stringify(inventory))
+    return fs.writeFileSync('./inventory.json', JSON.stringify(inventory))
 }
 
 const buildCalls = () => {
