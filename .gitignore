@@ -41,7 +41,7 @@ youtubebot
 .env.local
 .env.*.local
 
-_inventory
+output
 
 # Log files
 npm-debug.log*
